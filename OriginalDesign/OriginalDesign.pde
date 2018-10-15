@@ -1,3 +1,8 @@
+/*
+  FALLING CARDS by Elias A., inspired by the classic victory animation from the built-in Microsoft application Solitaire.
+  If the GitHub page only displays a green background, download the repo and run the Processing file on your computer.
+*/
+
 PImage[] card = new PImage[52];
 int aCard = int(random(0,51));
 int xpos = int(random(10,720));
