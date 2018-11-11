@@ -18,7 +18,7 @@ void settings() {
 }
 
 void setup() {
-  for(int i=0;i<52;i++) card[i] = loadImage(i+".jpg");      // Loading all card images and put them in respective array positions
+  for(int i=0;i<52;i++) card[i] = loadImage("https://github.com/eliasa2019/OriginalDesign/blob/master/OriginalDesign/data/"+i+".jpg");      // Loading all card images and put them in respective array positions
   background(0x00,0x7F,0x01);
 }
 
